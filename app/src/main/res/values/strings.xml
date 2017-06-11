@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SLT Usage</string>
+    <string name="peak_time">8.00 Hrs to 23.59 Hrs daily</string>
+    <string name="off_peak_time">00.00 Hrs to 07.59 Hrs daily</string>
+    <string name="peak_download_volume">Volume of data downloaded during peak times</string>
+    <string name="total_volume">Volume of data downloaded and uploaded during both peak and off-peak times</string>
+    <string name="transfer_volume">When your upload and off peak download volume is consumed fully, you can use peak download volume quota for upload and off peak downloads. Then such volume is deducted from peak download volume and shown as tranferred volume.</string>
+    <string name="about">This application is create by Prasanna Deshappriya. Contact prasannadeshappriya@gmail.com for more informations.</string>
+</resources>

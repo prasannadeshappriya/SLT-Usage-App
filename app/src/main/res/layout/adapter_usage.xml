@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:background="@drawable/frame_border">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="OFF-PEAK USAGE"
+        android:id="@+id/adapterPeriod"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/adapterTrainName"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_below="@+id/etPeakUseage"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="350dip"
+            android:id="@+id/etProgressbar"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/etProgressbarUsed"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginLeft="20dip">
+        <Space android:id="@+id/adapterSpace"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="46.0% Used"
+            android:layout_alignLeft="@+id/adapterSpace"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dip"
+            android:id="@+id/adapterAvailable"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="56% Available"
+            android:layout_alignRight="@+id/adapterSpace"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dip"
+            android:id="@+id/adapterUsed"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/adapterTrainName"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Available Data: 5.0 GB"
+        android:paddingLeft="30dip"
+        android:id="@+id/adapterAvailableData"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Total Data: 10.0 GB [2.5GB Used]"
+        android:paddingLeft="30dip"
+        android:id="@+id/adapterTotalData"
+        android:layout_height="wrap_content" />
+</LinearLayout>

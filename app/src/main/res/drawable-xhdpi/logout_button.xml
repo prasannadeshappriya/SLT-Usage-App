@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017, Gayan Weerakutti <gayan@linuxdeveloper.space>
+  ~ This Source Code Form is subject to the terms of the Mozilla Public
+  ~ License, v. 2.0. If a copy of the MPL was not distributed with this
+  ~ file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@drawable/sign_out_button_pressed" android:state_pressed="true"/>
+  <item android:drawable="@drawable/sign_in_button_focused" android:state_focused="true" />
+  <item android:drawable="@drawable/sign_out_button_pressed" android:state_enabled="false"/>
+  <item android:drawable="@drawable/sign_out_button_default" />
+</selector>
